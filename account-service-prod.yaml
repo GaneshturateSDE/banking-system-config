@@ -1,3 +1,6 @@
 spring:
   application:
     name: account-service-prod
+
+server:
+  port: 8081

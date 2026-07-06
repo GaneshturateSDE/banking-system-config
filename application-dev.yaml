@@ -1,3 +1,5 @@
 spring:
   application:
     name: banking-service-dev
+server:
+  port: 8080

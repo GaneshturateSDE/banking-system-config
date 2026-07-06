@@ -1,3 +1,5 @@
 spring:
   application:
     name: auth-service-prod
+server:
+  port: 8082
