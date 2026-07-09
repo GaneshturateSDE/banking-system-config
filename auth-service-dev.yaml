@@ -1,5 +1,20 @@
 spring:
   application:
-    name: auth-service-dev
+    name: Auth-service
+  datasource:
+    url: jdbc:postgreSql://localhost:5432/auth-db
+    username: ganesh
+    password: ganesh
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  flyway:
+    enabled: true
+    locations: classpath:/db/migration
+
 server:
-  port: 8082
+  port: 9000
+
+
+
