@@ -11,7 +11,8 @@ spring:
           issuer-uri: http://localhost:8081/auth-service
   data:
     redis:
-      host: localhost:6371
+      host: localhost:6379
+
   cloud:
     gateway:
       server:

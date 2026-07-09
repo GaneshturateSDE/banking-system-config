@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Auth-service
+    name: auth-service
   datasource:
     url: jdbc:postgreSql://localhost:5432/auth-db
     username: ganesh
