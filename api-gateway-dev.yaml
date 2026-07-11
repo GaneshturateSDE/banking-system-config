@@ -8,7 +8,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8081/auth-service
+          issuer-uri: http://localhost:9000/auth-service
   data:
     redis:
       host: localhost:6379
@@ -40,7 +40,7 @@ spring:
                     name : transactionCB
 
 server:
-  port: 8080
+  port: 8081
 
 eureka:
   client:
